@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>授業出席登録</title>
+</head>
+<body>
+
+<html>
+ <head><title>学生の成績ファイル</title></head>
+  <body bgcolor="#FFFF00">
+   <center><h1 style="background:#00FFFF">授業出席登録</h1></center>
+
+     <form method="post" action="ex3_2.jsp">
+
+  <table border="0">
+   <th style="color:#FFFFFF;background:#0000FF;text-align:right;">授業コ-ド</th>
+    <td><input type="text" name="class-no" size="16" /></th>
+    <th style="color:#0000FF;background:#FFFF00;text-align:left;">例）10020S0563 半角英数字</td><tr>
+
+   <th style="color:#FFFFFF;background:#0000FF;text-align:right;">学籍番号</th>
+    <td><input type="text" name="id" size="16" /></th>
+    <th style="color:#0000FF;background:#FFFF00;text-align:left;"">例）2011140090 半角数字</td><tr>
+
+  <th style="color:#FFFFFF;background:#0000FF;text-align:right;">氏　　名</th>
+    <td><input type="text" name="namae" size="16" /></th>
+    <th style="color:#0000FF;background:#FFFF00;text-align:left;">例）近畿 　太郎　　空白は全角スペース</td><tr>
+
+   <th style="color:#FFFFFF;background:#0000FF;text-align:right;">授業時限</th>
+    <td><input type="text" name="c" size="16" /></th>
+    <th style="color:#0000FF;background:#FFFF00;text-align:left;">例） 1　　　　　　1～5　半角数字</td><tr>
+
+
+  </table>
+  <br>
+    <input type="submit" name="btn1" value="登録" />
+    <input type="reset" name="btn1" value="リセット" />
+    <input type="submit" name="btn1" value="表示" />
+      <br>  <br>
+※機械的に処理されますので、正確に入力してください。1文字でも違うと、出席になりません。
+ <br>
+ ※参考コード： 10020S0419 情報と職業 (電気)、10020S0563 情報と職業 (情報)、10020T0963 情報と職業 (教)(再)(電気)
+  </body>
+</html>
